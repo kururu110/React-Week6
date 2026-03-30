@@ -1,4 +1,4 @@
-import { createHashRouter } from "react-router";
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import FrontendLayout from "./layout/FrontendLayout";
 import { Children } from "react";
 import Home from "./views/front/Home";
